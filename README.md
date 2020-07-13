@@ -11,16 +11,16 @@ I should be on line 17 on the Google sheet
 
 
 Wireframe:
-Mobile Wireframe: 
+Mobile Wireframe: !['Mobile Wireframe'](images/image2.jpeg)
  
 
-Tablet Wireframe:
+Tablet Wireframe: !['Tablet Wireframe'](images/image3.jpeg)
  
 
-Desktop Wireframe:
+Desktop Wireframe: !['Desktop Wireframe'](images/image4.jpeg)
  
 
-Time-Priority Index: 
+Time-Priority Index: !['Time/Priority Index'](images/image1.jpeg)
  
 MVP list:
 1)	Interactive Buttons to navigate the page
@@ -72,9 +72,5 @@ Post-MVP:
 |Component|Difficulty|Est. Time|Time Invested|Actual Time|
 |---------|--------------------|---------|-------------|-----------|
 |Social Media Links, Images, & Gifs|Low|1 Hr.|x|x|
-|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH|4 Hrs.|x|x|		
-
-
-
-
-
+|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH|4 Hrs.|x|x|
+|Bootstrap|HIGH(have to learn it)|4Hrs.|x|x|
