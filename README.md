@@ -11,7 +11,7 @@ I should be on line 17 on the Google sheet
 
 
 Wireframe:
-Mobile Wireframe: !['Mobile Wireframe'] (images/image2.jpeg)
+Mobile Wireframe: !['Mobile Wireframe'](images/image2.jpeg)
  
 
 Tablet Wireframe: !['Tablet Wireframe'] (images/image3.jpeg)
