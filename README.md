@@ -45,33 +45,36 @@ Post-MVP:
 
 
 Functional Components: 
+
 MVP:
-Component	Priority	Est. Time	Time Invested	Actual Time
-Interactive words/menu items/etc. for page navigation	High	3 Hrs. 		
-Mobile first approach with screen size adaptation	HIGH	4 Hrs. 		
-Hamburger menu for mobile	High	3 Hrs. 		
-‘About Me’	Medium	2 Hrs. 		
-‘Projects’	Medium	2 Hrs.		
-‘Contact’	Medium	2 Hrs.		
-‘Sites’	Medium	2 Hrs. 		
-Google Pull Projects from API and email registry for google sheet	HIGH	4 Hrs.		
-DOM programming	High	3 Hrs.		
-Grid & Flexbox for CSS	Medium	2 Hrs.		
-Deployed to GitHub Pages	Low	1 Hr.		
-Basic HTML & CSS	Low	1 Hr.		
-TOTAL	High	29 HRs. 		
+
+|Component|	Priority|	Est. Time|	Time Invested|	Actual Time|
+-------------------------------------------------------------------
+|Interactive words/menu items/etc. for page navigation|	High|	3 Hrs.| x | x | 		
+|Mobile first approach with screen size adaptation|	HIGH|	4 Hrs.| x | x | 		
+|Hamburger menu for mobile|	High|	3 Hrs.| x | x | 		
+|‘About Me’|	Medium|	2 Hrs.| x | x | 		
+|‘Projects’|	Medium|	2 Hrs.| x | x |		
+|‘Contact’|	Medium|	2 Hrs.| x | x |		
+|‘Sites’|	Medium|	2 Hrs.| x | x | 		
+|Google Pull Projects from API and email registry for google sheet|	HIGH|	4 Hrs.| x | x |		
+|DOM programming|	High|	3 Hrs.| x | x |		
+|Grid & Flexbox for CSS|	Medium|	2 Hrs.| x | x |		
+|Deployed to GitHub Pages|	Low|	1 Hr.| x | x |		
+|Basic HTML & CSS|	Low|	1 Hr.| x | x |		
+|TOTAL	|High|	29 HRs.| x | x | 		
 
 
 
 
 Post-MVP:
-Component	Priority (after MVP)	Est. Time	Time Invested	Actual Time
-Social Media Links	Low	1 Hr.		
-Images & Gifs
-Indicate New/Featured Projects and Blogs -> Ongoing Projects	Low
-Medium	1 Hr.
-2 Hrs.		
-Bootstrap (maybe)	HIGH (I would have to learn it)	4 Hrs.		
+
+|Component	|Priority (after MVP)	|Est. Time	|Time Invested	|Actual Time|
+|Social Media Links|	Low|	1 Hr.| x | x |		
+|Images & Gifs| Low| 1 Hr.| x | x |
+|Indicate New/Featured Projects and Blogs -> Ongoing Projects|	
+Medium|	2 Hrs.| x | x |		
+|Bootstrap (maybe)|	HIGH (I would have to learn it)|	4 Hrs.| x | x |		
 
 
 
