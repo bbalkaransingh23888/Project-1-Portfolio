@@ -49,7 +49,7 @@ Functional Components:
 MVP:
 
 |Component|	Priority|	Est. Time|	Time Invested|	Actual Time|
--------------------------------------------------------------------
+|---------|---------|------------|---------------|-------------|
 |Interactive words/menu items/etc. for page navigation|	High|	3 Hrs.| x | x | 		
 |Mobile first approach with screen size adaptation|	HIGH|	4 Hrs.| x | x | 		
 |Hamburger menu for mobile|	High|	3 Hrs.| x | x | 		
@@ -70,6 +70,7 @@ MVP:
 Post-MVP:
 
 |Component	|Priority (after MVP)	|Est. Time	|Time Invested	|Actual Time|
+|-----------|-----------------------|-----------|---------------|-----------|
 |Social Media Links|	Low|	1 Hr.| x | x |		
 |Images & Gifs| Low| 1 Hr.| x | x |
 |Indicate New/Featured Projects and Blogs -> Ongoing Projects|	
