@@ -69,11 +69,11 @@ MVP:
 
 Post-MVP:
 
-|Component|Priority (after MVP)|Est. Time|Time Invested|Actual Time|
+|Component|Difficulty|Est. Time|Time Invested|Actual Time|
 |---------|--------------------|---------|-------------|-----------|
 |Social Media Links|Low|1 Hr.|x|x|		
 |Images & Gifs|Low|1 Hr.|x|x|
-|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH(I would have to learn it)|4 Hrs.|x|x|		
+|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH|4 Hrs.|x|x|		
 
 
 
