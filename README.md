@@ -20,7 +20,7 @@ Tablet Wireframe:
 Desktop Wireframe:
  
 
-Time-Priority Index:
+Time-Priority Index: 
  
 MVP list:
 1)	Interactive Buttons to navigate the page
