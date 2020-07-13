@@ -73,7 +73,7 @@ Post-MVP:
 |---------|--------------------|---------|-------------|-----------|
 |Social Media Links|Low|1 Hr.|x|x|		
 |Images & Gifs|Low|1 Hr.|x|x|
-|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap (maybe)|HIGH (I would have to learn it)|4 Hrs.|x|x|		
+|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH(I would have to learn it)|4 Hrs.|x|x|		
 
 
 
