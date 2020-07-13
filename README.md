@@ -20,7 +20,7 @@ Tablet Wireframe: !['Tablet Wireframe'] (images/image3.jpeg)
 Desktop Wireframe: !['Desktop Wireframe'] (images/image4.jpeg)
  
 
-Time-Priority Index: !['Time/Priority Index'] (images/image1.jpeg)
+Time-Priority Index: !['Time/Priority Index'](images/image1.jpeg)
  
 MVP list:
 1)	Interactive Buttons to navigate the page
