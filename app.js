@@ -24,8 +24,9 @@ const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($
 const $div7 = $('<div>'); $div7.text('name/company').addClass('name'); $('.contactMe').append($div7)
 //const $input = $(':input'); $input.attr(':text'); 
 const $div8 = $('<div>'); $div8.text('email').addClass('email'); $('.contactMe').append($div8)
-//const $div9;
-//const $div10;
+const $div9 = $('<div>'); $div9.text('phone').addClass('phone'); $('.contactMe').append($div9)
+const $div10 = $('<div>'); $div10.text('message').addClass('message'); $('.contactMe').append($div10)
+//const $button;
 //const $div11;
 const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
 const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
