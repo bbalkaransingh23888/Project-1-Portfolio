@@ -1,3 +1,53 @@
-/*body {
-    background: black;
-}*/
+
+
+body {
+    background: #696969;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    display: center;
+}
+
+h1, h2 {
+    color: #DC143C;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.menu {
+    text-align: right;
+}
+
+ul, li {
+    display: inline;
+}
+
+p {
+    text-align: center;
+}
+
+.resume {
+    text-align: right;
+}
+
+.contactInput {
+    display: inline-block;
+    text-align: center;
+}
+
+.message {
+    height: 50px;
+    width: 460px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+.footer {
+    text-align: left;
+}
