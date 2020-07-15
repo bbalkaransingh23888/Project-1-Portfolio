@@ -7,19 +7,19 @@ const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a ful
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
-    alert('You clicked About Me!')
-    window.scrollBy(0,400)
+    //alert('You clicked About Me') -> test
+    window.scrollBy(0,350)
 }); 
 const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3); $li3.click(function() {
-    alert('You clicked Contact!')
+    //alert('You clicked Contact!') -> test
     window.scrollBy(0,650)
 });
 const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click(function() {
-    alert('You clicked Sites!')
+    //alert('You clicked Sites!') -> test
     window.scrollBy(0,900)
 });
 const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click(function() {
-    alert('You clicked Projects!')
+    //alert('You clicked Projects!') -> test
     window.scrollBy(0,1050)
 });
 //const $div4;
