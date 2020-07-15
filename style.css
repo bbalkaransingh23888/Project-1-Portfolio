@@ -22,6 +22,7 @@ h1, h2 {
 
 ul, li {
     display: inline;
+    cursor: pointer;
 }
 
 p {
@@ -30,6 +31,7 @@ p {
 
 .resume {
     text-align: right;
+    cursor: pointer;
 }
 
 .contactInput {
@@ -85,6 +87,7 @@ button {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 footer {

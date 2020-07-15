@@ -5,10 +5,10 @@ const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').app
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
-const $li = $('<li>'); $li.text('About me '); $ul.append($li)
-const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2)
-const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3)
-const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4)
+const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(); 
+const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click();
+const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3); $li3.click();
+const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click();
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
 const $p2 = $('<p>'); $p2.text('I graduated from the Laguardia TechHire OpenCode Bootcamp, done in partnership with General Assembly. I have learned HTML, CSS, JavaScript, the command line, and GitHub so far.'); $('.aboutMe').append($p2)
@@ -17,8 +17,6 @@ const $p4 = $('<p>'); $p4.text('resume').addClass('resume'); $('.aboutMe').appen
 const $a = $('<a>'); $a.attr('href',"resume"); $p4.prepend($a)
 //const $div5;
 const $h2b = $('<h2>'); $h2b.text('Projects'); $('.projects').append($h2b)
-
-
 
 /*console.log($)
 
