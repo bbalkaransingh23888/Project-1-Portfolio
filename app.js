@@ -17,29 +17,10 @@ const $p4 = $('<p>'); $p4.text('resume').addClass('resume'); $('.aboutMe').appen
 const $a = $('<a>'); $a.attr('href',"resume"); $p4.prepend($a)
 //const $div5;
 const $h2b = $('<h2>'); $h2b.text('Projects'); $('.projects').append($h2b)
-//const $div6;
-const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
-const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
-const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($p6)
-const $div7 = $('<div>'); $div7.text('name/company').addClass('name'); $('.contactMe').append($div7)
-//const $input = $(':input'); $input.attr(':text'); 
-const $div8 = $('<div>'); $div8.text('email').addClass('email'); $('.contactMe').append($div8)
-const $div9 = $('<div>'); $div9.text('phone').addClass('phone'); $('.contactMe').append($div9)
-const $div10 = $('<div>'); $div10.text('message').addClass('message'); $('.contactMe').append($div10)
-//const $button;
-//const $div11;
-const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
-const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
-const $a2 = $('<a>'); $a2.attr('href',"blog"); $p7.prepend($a2)
-const $p8 = $('<p>'); $p8.text('GitHub'); $('.sites').append($p8)
-const $a3 = $('<a>'); $a3.attr('href',"https://github.com/bbalkaransingh23888"); $p8.prepend($a3)
-const $p9 = $('<p>'); $p9.text('LinkedIn'); $('.sites').append($p9)
-const $a4 = $('<a>'); $a4.attr('href',"GitHub"); $p9.prepend($a4)
-//const $footer;
 const $p10 = $('<p>'); $p10.text('Social Media Links:'); $('footer').append($p10).addClass('footer')
 
-/*
-console.log($)
+
+/*console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1-YSo0tilzPyTV_wXSQqfx_MjTEpFxqZ6dzO3xqVfkAA/od6/public/values?alt=json'
 
@@ -75,3 +56,22 @@ fetch(url)
             $('body').append($projectDiv)
         })
     }*/
+//const $div6;
+const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
+const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
+const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($p6)
+const $div7 = $('<div>'); $div7.text('name/company').addClass('name'); $('.contactMe').append($div7)
+//const $input = $(':input'); $input.attr(':text'); 
+const $div8 = $('<div>'); $div8.text('email').addClass('email'); $('.contactMe').append($div8)
+const $div9 = $('<div>'); $div9.text('phone').addClass('phone'); $('.contactMe').append($div9)
+const $div10 = $('<div>'); $div10.text('message').addClass('message'); $('.contactMe').append($div10)
+const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($button)
+//const $div11;
+const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
+const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
+const $a2 = $('<a>'); $a2.attr('href',"blog"); $p7.prepend($a2)
+const $p8 = $('<p>'); $p8.text('GitHub'); $('.sites').append($p8)
+const $a3 = $('<a>'); $a3.attr('href',"https://github.com/bbalkaransingh23888"); $p8.prepend($a3)
+const $p9 = $('<p>'); $p9.text('LinkedIn'); $('.sites').append($p9)
+const $a4 = $('<a>'); $a4.attr('href',"GitHub"); $p9.prepend($a4)
+//const $footer;
