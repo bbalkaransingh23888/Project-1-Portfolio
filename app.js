@@ -2,21 +2,25 @@
 //const $div1;
 const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').append($h1)
 //const $div2;
-const $img = $('<img>'); $img.attr('src','/Users/marilynbalkaransingh/Documents/Project_1_Portfolio/images/portfolio_profile_pic.PNG'); $img.append('.intro')
+const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.PNG'); $img.append('.intro')
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
     alert('You clicked About Me!')
+    window.scrollBy(0,400)
 }); 
 const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3); $li3.click(function() {
     alert('You clicked Contact!')
+    window.scrollBy(0,650)
 });
 const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click(function() {
     alert('You clicked Sites!')
+    window.scrollBy(0,900)
 });
 const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click(function() {
     alert('You clicked Projects!')
+    window.scrollBy(0,1050)
 });
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
