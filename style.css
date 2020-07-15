@@ -34,6 +34,12 @@ p {
     cursor: pointer;
 }
 
+.project-images {
+    height: 300px;
+    width: 150px;
+    display: grid; 
+}
+
 .contactInput {
     display: inline-flex;
     position: absolute;
