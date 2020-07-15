@@ -33,13 +33,58 @@ p {
 }
 
 .contactInput {
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;
+    position: absolute;
+}
+
+.name {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.phone {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .message {
-    height: 50px;
-    width: 460px;
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 footer {
