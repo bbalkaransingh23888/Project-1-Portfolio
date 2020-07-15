@@ -2,7 +2,7 @@
 //const $div1;
 const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').append($h1)
 //const $div2;
-const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.PNG'); $img.append('.intro')
+const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.png'); $img.append('.intro')
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
@@ -88,7 +88,7 @@ fetch(url)
         console.log(data)
         const createProjectElement = (project) => {
            const $div11 = $('<div>')
-            $div11.append($('<h2>').attr('class', 'project-header').text(project.title))
+            $div11.append($('<h3>').attr('class', 'project-header').text(project.title))
             $div11.append($('<p>').text(project.description))
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
             $div11.append($('<a>').attr('href', project.url))

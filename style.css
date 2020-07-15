@@ -37,12 +37,6 @@ p {
     /*cursor: pointer;*/
 }
 
-.project-images {
-    height: 300px;
-    width: 150px;
-    display: grid; 
-}
-
 .contactInput {
     display: inline-flex;
     position: absolute;
@@ -97,6 +91,20 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     /*cursor: pointer;*/
+}
+
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #E4303D;
+}
+
+.project-images {
+    height: 300px;
+    width: 150px;
+    display: grid; 
 }
 
 footer {
