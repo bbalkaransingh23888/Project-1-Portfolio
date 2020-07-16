@@ -2,7 +2,7 @@
 //const $div1;
 const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').append($h1)
 //const $div2;
-const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.png'); $img.prepend('.intro')
+//const $img = $('<img>'); $img.attr('src','https://i.imgur.com/I7Ul8TYb.jpg'); $img.append('.intro')
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
@@ -34,7 +34,7 @@ const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function
 const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
 const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
 const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($p6)
-const $div6 = $('<div>'); $div6.text('name/company').addClass('name'); $('.contactMe').append($div6)
+/*const $div6 = $('<div>'); $div6.text('name/company').addClass('name'); $('.contactMe').append($div6)
 const $input1 = $('<input/>').attr(type = 'text', name = 'text'); $('.name').append($input1)
 const $br = $('<br>'); $('.contactMe').append($br)
 const $div7 = $('<div>'); $div7.text('email').addClass('email'); $('.contactMe').append($div7)
@@ -48,7 +48,8 @@ const $input4 = $('<input/>').attr(type = 'text', name = 'text'); $('.message').
 const $br4 = $('<br>'); $('.contactMe').append($br4)
 const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($button); $button.click(function(){
     alert('You clicked submit!')
-})
+})*/
+//const $iframe = $('<iframe>'); $iframe.attr('src', "https://docs.google.com/forms/d/e/1FAIpQLSee9b-FvwXLN_jM3DMPBGWGj7EtE_ax6LHY5YQx1eAvsb_NAQ/viewform?embedded=true"); $iframe.append('.contactMe') 
 //const $div10;
 const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
 const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
