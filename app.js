@@ -2,7 +2,7 @@
 //const $div1;
 const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').append($h1)
 //const $div2;
-const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.png'); $img.append('.intro')
+const $img = $('<img>'); $img.attr('src','images/portfolio_profile_pic.png'); $img.prepend('.intro')
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
 const $ul = $('<ul>'); $('.menu').append($ul)
@@ -20,7 +20,7 @@ const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click(functi
 });
 const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,1050)
+    window.scrollBy(0,1075)
 });
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
@@ -35,13 +35,16 @@ const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
 const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
 const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($p6)
 const $div6 = $('<div>'); $div6.text('name/company').addClass('name'); $('.contactMe').append($div6)
-const $input = $('<input type="textbox">'); $input.addClass('name'); $('.contactMe').append($div6) 
+const $input1 = $('<input/>').attr(type = 'text', name = 'text'); $('.name').append($input1)
 const $br = $('<br>'); $('.contactMe').append($br)
 const $div7 = $('<div>'); $div7.text('email').addClass('email'); $('.contactMe').append($div7)
+const $input2 = $('<input/>').attr(type = 'text', name = 'text'); $('.email').append($input2)
 const $br2 = $('<br>'); $('.contactMe').append($br2)
 const $div8 = $('<div>'); $div8.text('phone').addClass('phone'); $('.contactMe').append($div8)
+const $input3 = $('<input/>').attr(type = 'text', name = 'text'); $('.phone').append($input3)
 const $br3 = $('<br>'); $('.contactMe').append($br3)
 const $div9 = $('<div>'); $div9.text('message').addClass('message'); $('.contactMe').append($div9)
+const $input4 = $('<input/>').attr(type = 'text', name = 'text'); $('.message').append($input4)
 const $br4 = $('<br>'); $('.contactMe').append($br4)
 const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($button); $button.click(function(){
     alert('You clicked submit!')

@@ -40,8 +40,7 @@ MVP list:
 Post-MVP: 
 1)	Social Media links: Can go in one or both of the contact section or the footer
 2)	For ‘Projects’ section, make sure to include most recent and/or highlights. Also indicate complete (more or less) and ongoing projects
-3)	Create a personal blog on my site -> utilize similar to post-MVP for ‘Projects’ section
-4)	Bootstrap (maybe) 
+3)	Create a personal blog on my site -> utilize similar to post-MVP for ‘Projects’ section 
 
 
 Functional Components: 
@@ -70,15 +69,5 @@ Post-MVP:
 |Component|Difficulty|Est. Time|Time Invested|Actual Time|
 |---------|--------------------|---------|-------------|-----------|
 |Social Media Links, Images, & Gifs|Low|1 Hr.|x|x|
-<<<<<<< HEAD
 |Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x|
-|Bootstrap|HIGH(have to learn it)|4Hrs.|x|x|
-=======
-|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x||Bootstrap(maybe)|HIGH|4 Hrs.|x|x|
-|Bootstrap|HIGH(have to learn it)|4Hrs.|x|x|
 
-
-
-
-
->>>>>>> 3cf4426f727cfe31fcff310f9ce784e50f93c2ba
