@@ -16,11 +16,11 @@ const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3); $li3.click(fun
 });
 const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click(function() {
     //alert('You clicked Sites!') -> test
-    window.scrollBy(0,900)
+    window.scrollBy(0,1345)
 });
 const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,1075)
+    window.scrollBy(0,1510)
 });
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
