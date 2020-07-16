@@ -52,12 +52,12 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
 //const $iframe = $('<iframe>'); $iframe.attr('src', "https://docs.google.com/forms/d/e/1FAIpQLSee9b-FvwXLN_jM3DMPBGWGj7EtE_ax6LHY5YQx1eAvsb_NAQ/viewform?embedded=true"); $iframe.append('.contactMe') 
 //const $div10;
 const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
-const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
-const $a2 = $('<a>'); $a2.attr('href',"https://wordpress.com/view/brandonbalkaransingh23.wordpress.com"); $p7.prepend($a2)
-const $p8 = $('<p>'); $p8.text('GitHub'); $('.sites').append($p8)
-const $a3 = $('<a>'); $a3.attr('href',"https://github.com/bbalkaransingh23888"); $p8.prepend($a3)
-const $p9 = $('<p>'); $p9.text('LinkedIn'); $('.sites').append($p9)
-const $a4 = $('<a>'); $a4.attr('href',"www.linkedin.com/in/brandon-balkaransingh23"); $p9.prepend($a4)
+//const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
+//const $a2 = $('<a>'); $a2.attr('href',"https://wordpress.com/view/brandonbalkaransingh23.wordpress.com"); $p7.prepend($a2)
+//const $p8 = $('<p>'); $p8.text('GitHub'); $('.sites').append($p8)
+//const $a3 = $('<a>'); $a3.attr('href',"https://github.com/bbalkaransingh23888"); $p8.prepend($a3)
+//const $p9 = $('<p>'); $p9.text('LinkedIn'); $('.sites').append($p9)
+//const $a4 = $('<a>'); $a4.attr('href',"www.linkedin.com/in/brandon-balkaransingh23"); $p9.prepend($a4)
 const $h2b = $('<h2>'); $h2b.text('Projects'); $('.projects').append($h2b)
 //const $div12;
 
