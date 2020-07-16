@@ -116,8 +116,9 @@ h3 {
 
 .project-images {
     height: 300px;
-    width: 150px;
-    display: grid; 
+    width: 250px;
+    display: grid;
+    padding: 0 35px 0 35px; 
 }
 
 footer {
