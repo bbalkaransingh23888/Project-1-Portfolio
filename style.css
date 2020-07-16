@@ -94,6 +94,18 @@ button {
     /*cursor: pointer;
 } */
 
+iframe {
+    width: 250px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-flex;
+    top: 200px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 
 
 h3 {

@@ -31,10 +31,10 @@ const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function
     alert('You clicked my resume!')
 });
 //const $div5;
-const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
+/*const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
 const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
 const $p6 = $('<p>'); $p6.text('phone: (646)265-4025'); $('.contactMe').append($p6)
-/*const $div6 = $('<div>'); $div6.text('name/company').addClass('name'); $('.contactMe').append($div6)
+const $div6 = $('<div>'); $div6.text('name/company').addClass('name'); $('.contactMe').append($div6)
 const $input1 = $('<input/>').attr(type = 'text', name = 'text'); $('.name').append($input1)
 const $br = $('<br>'); $('.contactMe').append($br)
 const $div7 = $('<div>'); $div7.text('email').addClass('email'); $('.contactMe').append($div7)
