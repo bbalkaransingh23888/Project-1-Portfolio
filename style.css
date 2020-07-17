@@ -152,7 +152,8 @@ h4 {
 }
 
 .project-header .project-description .project-link .project-images {
-    display: grid;
+    display: flex;
+    justify-items: space-around;
 }
 
 footer {

@@ -16,15 +16,15 @@ const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(functio
 }); 
 const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Contact!') -> test
-        window.scrollBy(0,650)
+     window.scrollBy(0,600)
 });
 const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
     //alert('You clicked Sites!') -> test
-    window.scrollBy(0,1175)
+    window.scrollBy(0,1125)
 });
 const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,1250)
+    window.scrollBy(0,1225)
 });
 const $hamburger = $('.hamburger')
 let show = false;
