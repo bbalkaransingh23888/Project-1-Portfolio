@@ -1,6 +1,6 @@
 body {
     background: #696969;
-    color: white;
+    color: silver;
     font-family: 'Roboto', sans-serif; 
 }
 
@@ -20,16 +20,42 @@ img {
 }
 
 .menu {
-    text-align: right;
+    text-align: right; 
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 10px auto;
 }
 
-ul, li {
-    display: inline;
-    /*cursor: pointer;*/
+ul {
+    font-size: smaller;
+    align-content: center;
+    margin: 10px;
+}
+
+li {
+    display: none;
+}
+
+.menu ul li {
+    transition: background-color .5s, color .5s;
+}
+
+.menu ul li:hover {
+    background-color: #dc143c;
+    color: white;
+}
+
+.hamburger {
+    color: gold;
+    font-size: 24px;
 }
 
 p {
     text-align: center;
+    font-size: 14px;
 }
 
 .resume {
@@ -112,7 +138,7 @@ a {
 
 
 
-h3 {
+h4 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #E4303D;
@@ -132,4 +158,52 @@ footer {
 
 .footer {
     text-align: left;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    ul {
+        font-size: smaller;
+        align-content: center;
+        margin: 10px;
+    }
+    
+    ul, li {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin: 3px;
+        /*cursor: pointer;*/
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+
+@media (min-width: 992 px) {
+    .hamburger {
+        display: none;
+    }
+    ul {
+        font-size: smaller;
+        align-content: center;
+        margin: 10px;
+    }
+    
+    ul, li {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin: 3px;
+        cursor: pointer;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 24px;
+    }
 }

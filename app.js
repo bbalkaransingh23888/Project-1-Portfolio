@@ -10,26 +10,26 @@ const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(functio
     //alert('You clicked About Me') -> test
     window.scrollBy(0,350)
 }); 
-const $li3 = $('<li>'); $li3.text(' Contact '); $ul.append($li3); $li3.click(function() {
+const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Contact!') -> test
     window.scrollBy(0,650)
 });
-const $li4 = $('<li>'); $li4.text(' Sites'); $ul.append($li4); $li4.click(function() {
+const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
     //alert('You clicked Sites!') -> test
-    window.scrollBy(0,1345)
+    window.scrollBy(0,1200)
 });
-const $li2 = $('<li>'); $li2.text(' Projects '); $ul.append($li2); $li2.click(function() {
+const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,1510)
+    window.scrollBy(0,1300)
 });
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
 const $p2 = $('<p>'); $p2.text('I graduated from the Laguardia TechHire OpenCode Bootcamp, done in partnership with General Assembly. I have learned HTML, CSS, JavaScript, the command line, and GitHub so far.'); $('.aboutMe').append($p2)
 const $p3 = $('<p>'); $p3.text('I graduated from college as an English major, Philosophy minor. I have a myriad of hobbies and interests both including and apart from coding. '); $('.aboutMe').append($p3)
 const $p4 = $('<p>'); $p4.text('resume').addClass('resume'); $('.aboutMe').append($p4)
-const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function() {
-    alert('You clicked my resume!')
-});
+//const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function() {
+  //  alert('You clicked my resume!')
+//});
 //const $div5;
 /*const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
 const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
@@ -51,7 +51,7 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
 })*/
 //const $iframe = $('<iframe>'); $iframe.attr('src', "https://docs.google.com/forms/d/e/1FAIpQLSee9b-FvwXLN_jM3DMPBGWGj7EtE_ax6LHY5YQx1eAvsb_NAQ/viewform?embedded=true"); $iframe.append('.contactMe') 
 //const $div10;
-const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
+//const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
 //const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
 //const $a2 = $('<a>'); $a2.attr('href',"https://wordpress.com/view/brandonbalkaransingh23.wordpress.com"); $p7.prepend($a2)
 //const $p8 = $('<p>'); $p8.text('GitHub'); $('.sites').append($p8)
@@ -92,7 +92,7 @@ fetch(url)
         console.log(data)
         const createProjectElement = (project) => {
            const $div11 = $('<div>')
-            $div11.append($('<h3>').attr('class', 'project-header').text(project.title))
+            $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<p>').text(project.description))
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
             $div11.append($('<a>').attr('href', project.url))
