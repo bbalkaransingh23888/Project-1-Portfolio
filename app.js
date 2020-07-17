@@ -90,7 +90,8 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
 
 //Project Section
 
-const $h2b = $('<h2>'); $h2b.text('Projects'); $('.projects').append($h2b)
+const $h2b = $('<h2>'); $h2b.text('Projects'); 
+$('.projects').append($h2b)
 //const $div12;
 
 const url = 'https://spreadsheets.google.com/feeds/list/1-YSo0tilzPyTV_wXSQqfx_MjTEpFxqZ6dzO3xqVfkAA/od6/public/values?alt=json'
@@ -126,16 +127,16 @@ fetch(url)
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<p>').text(project.description)).addClass('project-description')
+            $div11.append($('<a>').attr('href', project.url).text('link')).addClass('project-link')
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
-            $div11.append($('<a>').attr('href', project.url)).addClass('project-link')
             return $div11
         }
         data.forEach( project => {
             const $projectDiv = createProjectElement(project)
-            $('body').append($projectDiv)
+            $('.projects').append($projectDiv)
         })
     }
-$h2b.append($div11)
+
 
 //const $footer;
 //const $p10 = $('<p>'); $p10.text('Social Media Links:'); $('footer').append($p10).addClass('footer')
