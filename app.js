@@ -26,6 +26,10 @@ const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(fu
     //alert('You clicked Projects!') -> test
     window.scrollBy(0,1225)
 });
+const $li5 = $('<li>'); $li5.text(' Skills '); $ul.append($li5); $li5.click(function() {
+    //alert('You clicked Projects!') -> test
+    window.scrollBy(0,2800)
+});
 const $hamburger = $('.hamburger')
 let show = false;
 const showMenu = (event) => {
