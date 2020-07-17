@@ -131,7 +131,7 @@ fetch(url)
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<p>').text(project.description)).addClass('project-description')
-            $div11.append($('<a>').attr('href', project.url).text('link')).addClass('project-link')
+            $div11.append($('<a>').attr('href', project.url).text(' link')).addClass('project-link')
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
             return $div11
         }

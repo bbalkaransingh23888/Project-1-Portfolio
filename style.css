@@ -55,7 +55,7 @@ li {
 
 p {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .resume {
@@ -144,11 +144,15 @@ h4 {
     color: #E4303D;
 }
 
+.project {
+    display: flex;
+
+}
+
 .project-images {
     height: 300px;
     width: 250px;
-    display: flex;
-    padding: 0 35px 0 35px; 
+    display: inline-block;
 }
 
 .project-header .project-description .project-link .project-images {
@@ -162,7 +166,9 @@ h4 {
     margin: 0 auto;
     height: 500px;
     width: 300px;
-    grid-template-areas: "languages" "software";
+    grid-template-areas: 
+    "languages languages languages" 
+    "software software software";
 }
 
 .languages {
@@ -267,9 +273,16 @@ footer {
     .project-images {
         height: 300px;
         width: 250px;
-        display: grid;
+        display: inline-block;
         padding: 0 35px 0 35px; 
-    }   
+    }
+    
+    .project-header .project-description .project-link .project-images {
+        display: flex;
+        justify-items: space-around;
+        width: 250px;
+        height: 300px;
+    }
 
     .skills {
         margin: 0 auto;
@@ -360,57 +373,87 @@ footer {
     .project-images {
         height: 300px;
         width: 250px;
-        display: grid;
+        display: inline-block;
         padding: 0 35px 0 35px; 
-    }    
+    }
+    
+    .project-header .project-description .project-link .project-images {
+        display: flex;
+        justify-items: space-around;
+        width: 250px;
+        height: 300px;
+    }
 
     .skills {
         margin: 0 auto;
         height: 500px;
         width: 300px;
         grid-template-areas: 
-        "languages languages languages" 
-        "software software software";
+        "languages" "software"
+        "html" "git"
+        "css" "github"
+        "javascript" "terminal";
     }
     
     .languages {
         grid-area: languages;
-        grid-template-areas: 
+        /*grid-template-areas: 
         "html"
         "css"
         "javascript";
-    
-    }
-    
-    .software {
-        grid-area: software;
-        grid-template-areas:
-        "git"
-        "github"
-        "terminal";
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
     }
     
     .html {
         grid-area: html;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;*/
     }
     
     .css {
         grid-area: css;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;*/
     }
     
     .javascript {
         grid-area: javascript;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 3;*/
+    }
+
+    .software {
+        grid-area: software;
+        /*grid-template-areas:
+        "git"
+        "github"
+        "terminal";
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
     }
     
     .git {
         grid-area: git;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;*/
     }
     
     .github {
         grid-area: github;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;*/
     }
     
     .terminal {
         grid-area: terminal;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 3;*/
     }
 }
