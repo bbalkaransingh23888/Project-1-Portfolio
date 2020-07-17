@@ -1,3 +1,4 @@
+//Introduction Section
 
 //const $div1;
 const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').append($h1)
@@ -5,6 +6,9 @@ const $h1 = $('<h1>'); $h1.text('Welcome to My Site!'); $('.welcomeMessage').app
 //const $img = $('<img>'); $img.attr('src','https://i.imgur.com/I7Ul8TYb.jpg'); $img.append('.intro')
 const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a full-stack developer-in-training'); $('.intro').append($p1)
 //const $div3;
+
+//Nav Menu Section
+
 const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
     //alert('You clicked About Me') -> test
@@ -22,6 +26,25 @@ const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(fu
     //alert('You clicked Projects!') -> test
     window.scrollBy(0,1300)
 });
+const $hamburger = $('.hamburger')
+let show = false;
+const showMenu = (event) => {
+    if (show) {
+        $('li').each(function(index) {
+            $(this).css('display', 'none')
+        })
+        show = false
+    } else {
+        $('li').each(function(index) {
+            $(this).css('display', 'flex')
+        })
+        show = true;
+    }
+}
+$hamburger.on('click', showMenu)
+
+//About Me Section
+
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
 const $p2 = $('<p>'); $p2.text('I graduated from the Laguardia TechHire OpenCode Bootcamp, done in partnership with General Assembly. I have learned HTML, CSS, JavaScript, the command line, and GitHub so far.'); $('.aboutMe').append($p2)
@@ -30,6 +53,9 @@ const $p4 = $('<p>'); $p4.text('resume').addClass('resume'); $('.aboutMe').appen
 //const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function() {
   //  alert('You clicked my resume!')
 //});
+
+//Contact Section
+
 //const $div5;
 /*const $h2c = $('<h2>'); $h2c.text('Contact Me'); $('.contactMe').append($h2c)
 const $p5 =  $('<p>'); $p5.text('email: bbalkaransingh2223@gmail.com'); $('.contactMe').append($p5)
@@ -50,6 +76,9 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
     alert('You clicked submit!')
 })*/
 //const $iframe = $('<iframe>'); $iframe.attr('src', "https://docs.google.com/forms/d/e/1FAIpQLSee9b-FvwXLN_jM3DMPBGWGj7EtE_ax6LHY5YQx1eAvsb_NAQ/viewform?embedded=true"); $iframe.append('.contactMe') 
+
+//Sites Section
+
 //const $div10;
 //const $h2d = $('<h2>'); $h2d.text('Sites'); $('.sites').append($h2d)
 //const $p7 = $('<p>'); $p7.text('Blog'); $('.sites').append($p7)
@@ -58,6 +87,9 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
 //const $a3 = $('<a>'); $a3.attr('href',"https://github.com/bbalkaransingh23888"); $p8.prepend($a3)
 //const $p9 = $('<p>'); $p9.text('LinkedIn'); $('.sites').append($p9)
 //const $a4 = $('<a>'); $a4.attr('href',"www.linkedin.com/in/brandon-balkaransingh23"); $p9.prepend($a4)
+
+//Project Section
+
 const $h2b = $('<h2>'); $h2b.text('Projects'); $('.projects').append($h2b)
 //const $div12;
 
