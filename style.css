@@ -1,7 +1,7 @@
 body {
     background: #696969;
     color: silver;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
@@ -181,7 +181,25 @@ footer {
         text-align: center;
         font-size: 18px;
     }
-    
+
+    iframe {
+        width: 500px;
+        height: 400px;
+        position: relative;
+        margin: 0 auto;
+        display: inline-flex;
+        top: 200px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .project-images {
+        height: 300px;
+        width: 250px;
+        display: grid;
+        padding: 0 35px 0 35px; 
+    }   
 }
 
 @media (min-width: 992 px) {
@@ -206,4 +224,23 @@ footer {
         text-align: center;
         font-size: 24px;
     }
+
+    iframe {
+        width: 700px;
+        height: 400px;
+        position: relative;
+        margin: 0 auto;
+        display: inline-flex;
+        top: 200px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .project-images {
+        height: 300px;
+        width: 250px;
+        display: grid;
+        padding: 0 35px 0 35px; 
+    }    
 }
