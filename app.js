@@ -94,8 +94,8 @@ const $button = $('<button>'); $button.text('submit'); $('.contactMe').append($b
 
 //Project Section
 
-const $h2b = $('<h2>'); $h2b.text('Projects'); 
-$('.projects').append($h2b)
+//const $h2b = $('<h2>'); $h2b.text('Projects'); 
+//$('.projects').append($h2b)
 //const $div12;
 
 const url = 'https://spreadsheets.google.com/feeds/list/1-YSo0tilzPyTV_wXSQqfx_MjTEpFxqZ6dzO3xqVfkAA/od6/public/values?alt=json'
