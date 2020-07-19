@@ -137,7 +137,7 @@ fetch(url)
         }
         data.forEach( project => {
             const $projectDiv = createProjectElement(project)
-            $('.projects').append($projectDiv)
+            $('.projects-section').append($projectDiv)
         })
     }
 

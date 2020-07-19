@@ -27,6 +27,7 @@ img {
     background-color: black;
     justify-content: space-between;
     margin: 10px auto;
+    border: 2px solid gold;
 }
 
 ul {
@@ -60,65 +61,7 @@ p {
 
 .resume {
     text-align: right;
-    /*cursor: pointer;*/
 }
-
-/*.contactInput {
-    display: inline-flex;
-    position: absolute;
-    flex-wrap: wrap;
-}
-
-.name {
-    display: inline-flex;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.email {
-    display: inline-flex;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.phone {
-    display: inline-flex;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.message {
-    display: inline-flex;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-button {
-    display: inline-flex;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    /*cursor: pointer;
-} */
 
 iframe {
     width: 250px;
@@ -144,86 +87,51 @@ h4 {
     color: #E4303D;
 }
 
-.project {
+.projects-section {
     display: flex;
     flex-direction: column;
+    border: 2px solid gold;
 }
 
 .project-images {
     height: 100px;
-    width: 250px;
-    display: inline-block;
+    width: 80%;
+    display: flex;
+    margin: 10%;
+    border: 2px solid gold;
 }
 
-.project-header .project-description .project-link .project-images {
+.project-description .project-images .project-link .project-header{
     display: flex;
-    width: 250px;
+    width: 80%;
     height: 100px;
+    margin: 10%;
+    border: 2px solid gold;
 }
 
 .skills {
+    text-align: center;
+    border: 2px solid gold;
     margin: 0 auto;
     height: 500px;
     width: 300px;
-    grid-template-areas: 
+    grid-template-areas:
+    "language-header" 
     "languages languages languages" 
+    "software-header"
     "software software software";
+}
+
+.language-header {
+    grid-area: language-header;
+}
+
+.software-header {
+    grid-area: software-header;
 }
 
 .languages {
     grid-area: languages;
-    /*grid-template-areas: 
-    "html"
-    "css"
-    "javascript";*/
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.html {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 1; 
-}
-
-.css {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 2;
-}
-
-.javascript {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 3;
-}
-
-.software {
-    grid-area: software;
-    /*grid-template-areas:
-    "git"
-    "github"
-    "terminal";*/
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.git {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 1;
-}
-
-.github {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 2;
-}
-
-.terminal {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 3;
 }
 
 footer {
@@ -250,7 +158,6 @@ footer {
         justify-content: space-around;
         align-content: center;
         margin: 3px;
-        /*cursor: pointer;*/
     }
     p {
         text-align: center;
@@ -268,91 +175,29 @@ footer {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
-
-    .project {
+    .projects-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        max-width: 720px;
     }
     
     .project-images {
         height: 100px;
-        width: 250px;
-        display: inline-block;
+        width: 240px;
+        display: flex;
+        flex-direction: row;
     }
     
-    .project-header .project-description .project-link .project-images {
+    .project-description .project-images .project-link .project-header{
         display: flex;
+        flex-direction: row;
         width: 250px;
         height: 100px;
-    }
-
-    .skills {
-        margin: 0 auto;
-        height: 500px;
-        width: 300px;
-        grid-template-areas: 
-        "languages languages languages" 
-        "software software software";
-    }
-    
-    .languages {
-        grid-area: languages;
-        /*grid-template-areas: 
-        "html"
-        "css"
-        "javascript";*/
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-    .html {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 1; 
-    }
-    
-    .css {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 2;
-    }
-    
-    .javascript {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 3;
-    }
-    
-    .software {
-        grid-area: software;
-        /*grid-template-areas:
-        "git"
-        "github"
-        "terminal";*/
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-    .git {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 1;
-    }
-    
-    .github {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 2;
-    }
-    
-    .terminal {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 3;
     }
 }
 
 @media (min-width: 992 px) {
+    
     .hamburger {
         display: none;
     }
@@ -367,6 +212,9 @@ footer {
         justify-content: space-around;
         align-content: center;
         margin: 3px;
+    }
+
+    li {
         cursor: pointer;
     }
     
@@ -387,66 +235,60 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    .projects{
+    a {
+        cursor: pointer;
+    }
+
+    .projects-section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-      }
-    .project-description{
-        width: 40%;
+        max-width: 900px;
+    }
+    
+    .project-description {
+        width: 25%;
         margin: 10px 5%;
       }
+
+    .project-images {
+        height: 100px;
+        width: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .project-link {
+        cursor: pointer;
+    }
 
     .skills {
        display: grid;
        grid-template-areas: 
-       "header header"
+       "language-header software-header"
        "languages software";
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: 1fr 1fr;
     }
 
-    .skills-header {
-        grid-area: header;
+    .language-header {
+        grid-area: language-header;
+    }
+
+    .software-header {
+        grid-area: software-header;
     }
     
     .languages {
-    grid-area: languages;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "css"
-    "html"
-    "javascript";
-    }
-
-    .fab.fa-html5{
-    grid-area: html;
-    }
-    .fab.fa-css3{
-    grid-area: css;
-    }
-    .fab.fa-js{
-    grid-area: javascript;
+        grid-area: languages;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid gold;
     }
 
     .software {
         grid-area: software;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "git"
-        "github"
-        "terminal";
-    }
-    
-    .fab.fa-git {
-        grid-area: git;
-    }
-
-    .fab.fa-github {
-        grid-area: github;
-    }
-
-    .fas.fa-terminal {
-        grid-area: terminal;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid gold;
     }
 }
