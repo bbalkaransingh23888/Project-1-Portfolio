@@ -49,25 +49,25 @@ MVP:
 
 |Component|Priority|Est. Time|Time Invested|Actual Time|
 |---------|--------|---------|-------------|-----------|
-|Interactive words/menu items/etc. for page navigation|High|3 Hrs.|x|x| 		
-|Mobile first approach with screen size adaptation|HIGH|4 Hrs.|x|x| 		
-|Hamburger menu for mobile|High|3 Hrs.|x|x| 		
-|‘About Me’|Medium|2 Hrs.|x|x| 		
-|‘Projects’|Medium|2 Hrs.|x|x|		
-|‘Contact’|Medium|2 Hrs.|x|x|		
-|‘Sites’|Medium|2 Hrs.|x|x| 		
-|Google Pull Projects from API and email registry for google sheet|HIGH|4 Hrs.|x|x|		
-|DOM programming|High|3 Hrs.|x|x|		
-|Grid & Flexbox for CSS|Medium|2 Hrs.|x|x|		
-|Deployed to GitHub Pages|Low|1 Hr.|x|x|		
-|Basic HTML & CSS|Low|1 Hr.|x|x|		
-|TOTAL|High|29 HRs.|x|x| 		
+|Interactive words/menu items/etc. for page navigation|High|3 Hrs.|3 Hrs.|3 Hrs.| 		
+|Mobile first approach with screen size adaptation|HIGH|4 Hrs.|4 Hrs.|4 Hrs.| 		
+|Hamburger menu for mobile|High|3 Hrs.|1 Hr.|1 Hr.| 		
+|‘About Me’|Medium|2 Hrs.|1 Hr.|1 Hr.| 		
+|‘Projects’|Medium|2 Hrs.|3 Hrs.|3 Hrs.|		
+|‘Contact’|Medium|2 Hrs.|2 Hrs.|2 Hrs.|		
+|‘Sites’|Medium|2 Hrs.|1 Hr.|1 Hr.| 		
+|Google Pull Projects from API and email registry for google sheet|HIGH|4 Hrs.|1.5 Hrs.|1.5 Hrs.|		
+|DOM programming|High|3 Hrs.|3 Hrs.|3 Hrs.|		
+|Grid & Flexbox for CSS|Medium|2 Hrs.|4 Hrs.|4 Hrs.|		
+|Deployed to GitHub Pages|Low|1 Hr.|.5 hr.|.5 hr.|		
+|Basic HTML & CSS|Low|1 Hr.|.5 hr.|.5 hr.|		
+|TOTAL|High|29 Hrs.|24.5 Hrs.|24.5 Hrs.| 		
 
 
 Post-MVP:
 
 |Component|Difficulty|Est. Time|Time Invested|Actual Time|
 |---------|--------------------|---------|-------------|-----------|
-|Social Media Links, Images, & Gifs|Low|1 Hr.|x|x|
-|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|x|x|
+|Social Media Links, Images, & Gifs|Low|1 Hr.|1 Hr.|1 Hr.(ongoing)|
+|Indicate New/Featured Projects and Blogs -> Ongoing Projects|Medium|2 Hrs.|n/a|n/a|
 
