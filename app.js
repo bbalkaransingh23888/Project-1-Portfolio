@@ -105,8 +105,8 @@ fetch(url)
   .then(response => response.json())
   // take that data and perform following things (lines 10-20ish) on it
   .then(data => {
-    console.log('unclean', data)
-    console.log(data.feed.entry)
+    //console.log('unclean', data)
+    //console.log(data.feed.entry)
     //tidying up the json formatted data that comes back
     //turning it into a simple array of objects
     //so when trying to access data of each of your projects,
@@ -125,8 +125,8 @@ fetch(url)
     })
     // function that generates HTML elements for each of the rows on your google sheet (i.e., each of the elements in your projects array)
   const app = (data) => {
-        console.log('app is running!')
-        console.log(data)
+        //console.log('app is running!')
+        //console.log(data)
         const createProjectElement = (project) => {
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
