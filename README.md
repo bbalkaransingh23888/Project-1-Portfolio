@@ -3,7 +3,14 @@ Project Worksheet – Project One – Portfolio Site
 SEI-pineapple
 
 Project Description:
-This will be a portfolio site that will showcase my skills, projects, qualifications, and other information that employers and clients can use to make hiring decisions about me. I will include an About Me section, Projects section, Contact section, a section for links such as to my blog and to GitHub, an email registry, and a brief introduction section that includes a profile pic. For now, I will keep everything on one page as I want to keep this as simple as possible, and use the menu items to navigate to the appropriate section on the page. I shall be taking a mobile-first approach to building this site, meaning that I will design my site for a mobile device first, then scale it up to desktop and tablet devices using media queries. I will be using pages from the previous SEI students for inspiration as far as how I want my portfolio to look and function. I’ll put more information on that at a later point as I iron out the kinks.
+This is a portfolio site that showcases my skills, projects, qualifications, and other information that employers and clients can and will use to make hiring decisions about me. I have included an About Me section, Projects section, Contact section, a section for links such as to my blog and to GitHub, an email registry, and a brief introduction section that includes a profile pic. For now, I will keep everything on one page as I want to keep this as simple as possible, and use the menu items to navigate to the appropriate section on the page. I took a mobile-first approach to building this site, meaning that I initially designed my site for mobile devices, then scaled it up to desktop and tablet devices using media queries. My mobile devie includes a hamburger menu to collapse the menu items for their smaller screens, while it displays fully on desktop and tablet screens. I will be using pages from the previous General Assembly SEI students for inspiration as far as how I want my portfolio to look and function. These are some of them:
+        1) http://helloaileen.com/
+        2) http://eloise-ress-barrow.surge.sh/#contact-form
+        3) https://www.lianapenn.com/
+        4) https://dietoself86.github.io/project-1-portfolio/#skills
+        5) https://www.dcfonts.com/
+        6) https://mattfarley.ca/
+        7) https://sebkay.com/  
 
 Project link: 
 GitHub Repo: https://github.com/bbalkaransingh23888/Project_1_Portfolio
