@@ -51,7 +51,7 @@ $hamburger.on('click', showMenu)
 
 //const $div4;
 const $h2a = $('<h2>'); $h2a.text('About Me'); $('.aboutMe').append($h2a)
-const $p2 = $('<p>'); $p2.text('I graduated from the Laguardia TechHire OpenCode Bootcamp, done in partnership with General Assembly. I have learned HTML, CSS, JavaScript, the command line, and GitHub so far.'); $('.aboutMe').append($p2)
+const $p2 = $('<p>'); $p2.text('I graduated from the Laguardia TechHire OpenCode Bootcamp, done in partnership with General Assembly. I have learned HTML, CSS, JavaScript, jQuery, the command line, and GitHub so far.'); $('.aboutMe').append($p2)
 const $p3 = $('<p>'); $p3.text('I graduated from college as an English major, Philosophy minor. I have a myriad of hobbies and interests both including and apart from coding. '); $('.aboutMe').append($p3)
 const $p4 = $('<p>'); $p4.text('resume').addClass('resume'); $('.aboutMe').append($p4)
 //const $a = $('<a>'); $a.attr('href','resume'); $p4.append($a); $a.click(function() {
