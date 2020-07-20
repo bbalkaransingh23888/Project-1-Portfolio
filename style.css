@@ -190,7 +190,7 @@ footer {
         display: flex;        
         flex-direction: row;
         flex-wrap: wrap;
-        width: 800px;
+        width: 950px;
     }
     
     .project-description {
@@ -200,7 +200,7 @@ footer {
 
     .project-images {
         height: 100px;
-        width: 40%;
+        width: 300px;
         display: flex;
         flex-direction: row;
     }
