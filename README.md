@@ -16,6 +16,7 @@ These are some of them:
 
 Project link: 
 GitHub Repo: https://github.com/bbalkaransingh23888/Project_1_Portfolio
+Google Sheet link: https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0
 I should be on line 17 on the Google sheet
 
 
