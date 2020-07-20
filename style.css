@@ -190,19 +190,19 @@ footer {
         display: flex;        
         flex-direction: row;
         flex-wrap: wrap;
-        width: 950px;
     }
     
-    .project-description {
-        width: 40%;
-        margin: 10px 5%;
-      }
-
     .project-images {
         height: 100px;
         width: 300px;
         display: flex;
         flex-direction: row;
+        border: 2px solid gold;
+    }
+    
+    .project-description {
+        width: 300px;
+        margin: 21px;
     }
 
     .project-link {
@@ -240,7 +240,7 @@ footer {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .hamburger {
         display: none;
     }
