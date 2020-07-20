@@ -16,7 +16,7 @@ const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(functio
 }); 
 const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Contact!') -> test
-     window.scrollBy(0,600)
+     window.scrollBy(0,580)
 });
 const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
     //alert('You clicked Sites!') -> test

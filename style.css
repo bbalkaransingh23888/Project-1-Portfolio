@@ -90,36 +90,27 @@ h4 {
 .projects-section {
     display: flex;
     flex-direction: column;
-    border: 2px solid gold;
+    /*border: 2px solid gold;*/
 }
 
 .project-images {
-    height: 100px;
     width: 80%;
     display: flex;
     margin: 10%;
-    border: 2px solid gold;
-}
-
-.project-description .project-images .project-link .project-header{
-    display: flex;
-    width: 80%;
-    height: 100px;
-    margin: 10%;
-    border: 2px solid gold;
+    /*border: 2px solid gold;*/
 }
 
 .skills {
     text-align: center;
-    border: 2px solid gold;
+    /*border: 2px solid gold;*/
     margin: 0 auto;
     height: 500px;
     width: 300px;
     grid-template-areas:
     "language-header" 
-    "languages languages languages" 
+    "languages" 
     "software-header"
-    "software software software";
+    "software";
 }
 
 .language-header {
@@ -132,6 +123,12 @@ h4 {
 
 .languages {
     grid-area: languages;
+    /*border: gold;*/
+}
+
+.software {
+    grid-area: software;
+    /*border: gold;*/
 }
 
 footer {
@@ -141,6 +138,107 @@ footer {
 
 .footer {
     text-align: left;
+}
+
+@media (min-width: 992 px) {
+    .hamburger {
+        display: none;
+    }
+    ul {
+        font-size: smaller;
+        align-content: center;
+        margin: 10px;
+    }
+    
+    ul, li {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin: 3px;
+    }
+
+    li {
+        cursor: pointer;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    h2 {
+        background-color: black;
+    }
+
+    iframe {
+        width: 700px;
+        height: 400px;
+        position: relative;
+        margin: 0 auto;
+        display: inline-flex;
+        top: 200px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .projects-section {
+        display: flex;        
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .project-description {
+        width: 80%;
+        margin: 10px 5%;
+      }
+
+    .project-images {
+        height: 100px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .project-link {
+        cursor: pointer;
+    }
+
+    .skills {
+       width: 800px;
+       display: grid;
+       grid-template-areas: 
+       "language-header software-header"
+       "languages software";
+    }
+
+    .language-header {
+        grid-area: language-header;
+    }
+
+    .software-header {
+        grid-area: software-header;
+    }
+    
+    .languages {
+        grid-area: languages;
+        display: flex;
+        flex-direction: column;
+        /*border: 2px solid gold;*/
+    }
+
+    .software {
+        grid-area: software;
+        display: flex;
+        flex-direction: column;
+        /*border: 2px solid gold;*/
+    }
 }
 
 @media (min-width: 768px) {
@@ -196,99 +294,3 @@ footer {
     }
 }
 
-@media (min-width: 992 px) {
-    
-    .hamburger {
-        display: none;
-    }
-    ul {
-        font-size: smaller;
-        align-content: center;
-        margin: 10px;
-    }
-    
-    ul, li {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
-        margin: 3px;
-    }
-
-    li {
-        cursor: pointer;
-    }
-    
-    p {
-        text-align: center;
-        font-size: 24px;
-    }
-
-    iframe {
-        width: 700px;
-        height: 400px;
-        position: relative;
-        margin: 0 auto;
-        display: inline-flex;
-        top: 200px;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-
-    a {
-        cursor: pointer;
-    }
-
-    .projects-section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 900px;
-    }
-    
-    .project-description {
-        width: 25%;
-        margin: 10px 5%;
-      }
-
-    .project-images {
-        height: 100px;
-        width: 240px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .project-link {
-        cursor: pointer;
-    }
-
-    .skills {
-       display: grid;
-       grid-template-areas: 
-       "language-header software-header"
-       "languages software";
-    }
-
-    .language-header {
-        grid-area: language-header;
-    }
-
-    .software-header {
-        grid-area: software-header;
-    }
-    
-    .languages {
-        grid-area: languages;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid gold;
-    }
-
-    .software {
-        grid-area: software;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid gold;
-    }
-}
