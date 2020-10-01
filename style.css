@@ -108,16 +108,34 @@ h4 {
     width: 300px;
     grid-template-areas:
     "language-header" 
-    "languages" 
-    "software-header"
-    "software";
+    "languages"
+    "frontend-framework-header"
+    "frontend-framework"
+    "backend-database-header"
+    "backend-and-databases"
+    "knowledge-header"
+    "knowledge"
+    "other-header"
+    "other";
 }
 
 .language-header {
     grid-area: language-header;
 }
 
-.software-header {
+.frontend-framework-header{
+    grid-area: frontend-framework-header;
+}
+
+.backend-database-header{
+    grid-area: backend-database-header;
+}
+
+.knowledge-header{
+    grid-area: knowledge-header;
+}
+
+.other-header {
     grid-area: software-header;
 }
 
@@ -126,7 +144,19 @@ h4 {
     /*border: gold;*/
 }
 
-.software {
+.frontend-frameworks {
+    grid-area: frontend-frameworks;
+}
+
+.backend-and-databases { 
+    grid-area: backend-and-databases;
+}
+
+.knowledge {
+    grid-area: knowledge;
+}
+
+.other {
     grid-area: software;
     /*border: gold;*/
 }
@@ -215,30 +245,58 @@ footer {
        width: 800px;
        display: grid;
        grid-template-areas: 
-       "language-header software-header"
-       "languages software";
+       "language-header frontend-framework-header backend-database-header knowledge-header other-header"
+       "languages frontend-frameworks backend-and-databases knowledge other";
     }
 
     .language-header {
         grid-area: language-header;
     }
 
-    .software-header {
-        grid-area: software-header;
+    .frontend-framework-header{
+        grid-area: frontend-framework-header;
+    }
+    
+    .backend-database-header{
+        grid-area: backend-database-header;
+    }
+    
+    .knowledge-header{
+        grid-area: knowledge-header;
+    }
+
+    .other-header {
+        grid-area: other-header;
     }
     
     .languages {
         grid-area: languages;
         display: flex;
         flex-direction: column;
-        /*border: 2px solid gold;*/
     }
 
-    .software {
-        grid-area: software;
+    .frontend-frameworks {
+        grid-area: frontend-frameworks;
         display: flex;
         flex-direction: column;
-        /*border: 2px solid gold;*/
+    }
+    
+    .backend-and-databases { 
+        grid-area: backend-and-databases;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .knowledge {
+        grid-area: knowledge;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other {
+        grid-area: other;
+        display: flex;
+        flex-direction: column;
     }
 }
 
