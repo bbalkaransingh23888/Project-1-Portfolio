@@ -241,6 +241,12 @@ footer {
         cursor: pointer;
     }
 
+    .project-repos {
+        width: 300px;
+        margin: 21px;
+        cursor: pointer;
+    }
+
     .skills {
        width: 800px;
        display: grid;
