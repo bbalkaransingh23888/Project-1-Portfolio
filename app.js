@@ -87,8 +87,7 @@ fetch(url)
   .then(response => response.json())
   // take that data and perform following things (lines 10-20ish) on it
   .then(data => {
-    //console.log('unclean', data)
-    //console.log(data.feed.entry)
+
     //tidying up the json formatted data that comes back
     //turning it into a simple array of objects
     //so when trying to access data of each of your projects,
@@ -100,7 +99,7 @@ fetch(url)
                 image: entry.gsx$image.$t,
                 description: entry.gsx$description.$t,
                 url: entry.gsx$url.$t,
-                repos: entry.gsx$repos.$t 
+                repo: entry.gsx$repo.$t, 
             }
     })
     //you use the tidied up projects array and pass it into the app function (html generator)
@@ -108,15 +107,13 @@ fetch(url)
     })
     // function that generates HTML elements for each of the rows on your google sheet (i.e., each of the elements in your projects array)
   const app = (data) => {
-        //console.log('app is running!')
-        //console.log(data)
         const createProjectElement = (project) => {
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<p>').text(project.description)).addClass('project-description')
-            $div11.append($('<a>').attr('href', project.url).text(' link')).addClass('project-link')
+            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link')
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
-            $div11.append($('<p>').text(project.repos)).addClass('project-repos')
+            $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo')
             return $div11
         }
         data.forEach( project => {

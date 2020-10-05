@@ -241,7 +241,7 @@ footer {
         cursor: pointer;
     }
 
-    .project-repos {
+    .project-repo {
         width: 300px;
         margin: 21px;
         cursor: pointer;
@@ -355,6 +355,12 @@ footer {
     .project-description {
         width: 40%;
         margin: 10px 5%;
+    }
+
+    .project-repo {
+        width: 40%;
+        margin: 10px 5%;
+        cursor: pointer;
     }
 }
 
