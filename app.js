@@ -12,23 +12,23 @@ const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a Ful
 const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
     //alert('You clicked About Me') -> test
-    window.scrollBy(0,350)
+    window.scrollBy(0,480)
 }); 
 const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
     //alert('You clicked Contact!') -> test
-     window.scrollBy(0,580)
+     window.scrollBy(0,1111)
 });
 const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
     //alert('You clicked Sites!') -> test
-    window.scrollBy(0,1125)
+    window.scrollBy(0,1888)
 });
 const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,1225)
+    window.scrollBy(0,2280)
 });
 const $li5 = $('<li>'); $li5.text(' Skills '); $ul.append($li5); $li5.click(function() {
     //alert('You clicked Projects!') -> test
-    window.scrollBy(0,2800)
+    window.scrollBy(0,5100)
 });
 const $hamburger = $('.hamburger')
 let show = false;
@@ -96,10 +96,10 @@ fetch(url)
           // you spit ouit that data out as tidier array of objects
             return {
                 title: entry.gsx$title.$t,
-                image: entry.gsx$image.$t,
-                description: entry.gsx$description.$t,
                 url: entry.gsx$url.$t,
+                description: entry.gsx$description.$t,
                 repo: entry.gsx$repo.$t, 
+                image: entry.gsx$image.$t,
             }
     })
     //you use the tidied up projects array and pass it into the app function (html generator)
@@ -110,10 +110,10 @@ fetch(url)
         const createProjectElement = (project) => {
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
-            $div11.append($('<p>').text(project.description)).addClass('project-description')
-            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link')
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
-            $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo')
+            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link') 
+            $div11.append($('<p>').text(project.description)).addClass('project-description')
+            $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo') 
             return $div11
         }
         data.forEach( project => {

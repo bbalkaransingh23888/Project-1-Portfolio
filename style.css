@@ -1,7 +1,22 @@
+html, body {
+    padding:0; 
+    margin:0; 
+    height:280%;
+    position: relative;
+}
+
 body {
     background: #696969;
-    color: silver;
+    color: black;
     font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 h1, h2 {
@@ -20,7 +35,8 @@ img {
 }
 
 .menu {
-    text-align: right; 
+    text-align: right;
+    color: #696969; 
     display: flex;
     width: 100%;
     min-width: 320px;
@@ -56,9 +72,21 @@ li {
 
 p {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
 }
 
+a {
+    text-align: center;
+    font-size: 24px;
+    color: #dc143c;
+}
+
+button {
+    display: inline;
+    margin: 15px;
+    background-color: black;
+    border: 2px solid gold;
+}
 .resume {
     text-align: right;
 }
@@ -75,16 +103,16 @@ iframe {
     transform: translate(-50%, -50%);
 }
 
-a {
-    display: inline;
-}
-
-
+/* .sites {
+    color: #DC143C;
+} */
 
 h4 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #E4303D;
+    color: #DC143C;
+    background-color: black;
+    font-size: 32px;
 }
 
 .projects-section {
@@ -93,12 +121,21 @@ h4 {
     /*border: 2px solid gold;*/
 }
 
+.project-description {
+    font-size: 13px;
+    color: black;
+}
+
 .project-images {
     width: 80%;
     display: flex;
     margin: 10%;
     /*border: 2px solid gold;*/
 }
+
+
+
+
 
 .skills {
     text-align: center;
@@ -141,30 +178,37 @@ h4 {
 
 .languages {
     grid-area: languages;
-    /*border: gold;*/
+    /* border: gold; */
 }
 
 .frontend-frameworks {
     grid-area: frontend-frameworks;
+    /* border: gold; */
 }
 
 .backend-and-databases { 
     grid-area: backend-and-databases;
+    /* border: gold; */
 }
 
 .knowledge {
     grid-area: knowledge;
+    /* border: gold; */
 }
 
 .other {
     grid-area: software;
-    /*border: gold;*/
+    /* border: gold; */
 }
 
 footer {
     background-color: black;
     border: 3px solid gold;
     height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer {
@@ -172,6 +216,14 @@ footer {
 }
 
 @media (min-width: 992px) {
+
+    html, body {
+        padding:0; 
+        margin:0; 
+        height:310%;
+        position: relative;
+    }
+
     .hamburger {
         display: none;
     }
@@ -194,7 +246,7 @@ footer {
     
     p {
         text-align: center;
-        font-size: 24px;
+        font-size: 16px;
     }
 
     h2 {
@@ -214,14 +266,20 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    a {
+    button {
         cursor: pointer;
+        display: inline-block;
+        margin: 185px;
     }
 
     .projects-section {
         display: flex;        
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    h4 {
+        font-size: 25px;
     }
     
     .project-images {
@@ -303,6 +361,10 @@ footer {
         grid-area: other;
         display: flex;
         flex-direction: column;
+    }
+
+    .fsite {
+       margin: 0;
     }
 }
 
