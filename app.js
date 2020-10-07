@@ -96,10 +96,10 @@ fetch(url)
           // you spit ouit that data out as tidier array of objects
             return {
                 title: entry.gsx$title.$t,
-                url: entry.gsx$url.$t,
-                description: entry.gsx$description.$t,
-                repo: entry.gsx$repo.$t, 
                 image: entry.gsx$image.$t,
+                url: entry.gsx$url.$t,
+                repo: entry.gsx$repo.$t, 
+                description: entry.gsx$description.$t,
             }
     })
     //you use the tidied up projects array and pass it into the app function (html generator)
@@ -112,8 +112,8 @@ fetch(url)
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
             $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link') 
-            $div11.append($('<p>').text(project.description)).addClass('project-description')
             $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo') 
+            $div11.append($('<p>').text(project.description)).addClass('project-description')
             return $div11
         }
         data.forEach( project => {
