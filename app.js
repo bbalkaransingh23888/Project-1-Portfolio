@@ -11,23 +11,18 @@ const $p1 = $('<p>'); $p1.text('Hi, my name is Brandon Balkaransingh. I am a Ful
 
 const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
-    //alert('You clicked About Me') -> test
     window.scrollBy(0,480)
 }); 
 const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
-    //alert('You clicked Contact!') -> test
      window.scrollBy(0,1111)
 });
 const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
-    //alert('You clicked Sites!') -> test
     window.scrollBy(0,1888)
 });
 const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(function() {
-    //alert('You clicked Projects!') -> test
     window.scrollBy(0,2280)
 });
 const $li5 = $('<li>'); $li5.text(' Skills '); $ul.append($li5); $li5.click(function() {
-    //alert('You clicked Projects!') -> test
     window.scrollBy(0,5100)
 });
 const $hamburger = $('.hamburger')
@@ -76,9 +71,7 @@ const $p2 = $('<p>'); $p2.text('I am a self-starting, fast-learning videogame ne
 
 //Project Section
 
-//const $h2b = $('<h2>'); $h2b.text('Projects'); 
-//$('.projects').append($h2b)
-//const $div12;
+
 
 const url = 'https://spreadsheets.google.com/feeds/list/1-YSo0tilzPyTV_wXSQqfx_MjTEpFxqZ6dzO3xqVfkAA/od6/public/values?alt=json'
 //takes our url and get json data from it
@@ -111,10 +104,13 @@ fetch(url)
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
-            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link') 
+            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link')
             $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo') 
             $div11.append($('<p>').text(project.description)).addClass('project-description')
             return $div11
+            // const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
+            //     window.scrollBy(0,480)
+            // }); 
         }
         data.forEach( project => {
             const $projectDiv = createProjectElement(project)
