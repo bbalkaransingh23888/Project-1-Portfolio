@@ -81,9 +81,8 @@ a {
     text-align: center;
     font-size: 24px;
     color: #dc143c;
-    background-color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a:hover{
@@ -129,13 +128,13 @@ iframe {
     flex-direction: column;
 }
 
-.project-link, .project-repo{
+ .project-link, .project-repo{
     text-align: center;
     font-size: 24px;
     color: #dc143c;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    margin-left: 5px;
+    margin-right: 5px;
+} 
 
 .project-description {
     font-size: 13px;
@@ -247,7 +246,7 @@ footer {
     html, body {
         padding:0; 
         margin:0; 
-        height:310%;
+        height:350%;
         position: relative;
     }
 
@@ -296,7 +295,7 @@ footer {
     button {
         cursor: pointer;
         display: inline-block;
-        margin: 185px;
+        margin: 150px;
     }
 
     .projects-section {
@@ -328,8 +327,6 @@ footer {
     }
 
     .project-repo {
-        width: 300px;
-        margin: 21px;
         cursor: pointer;
     }
 

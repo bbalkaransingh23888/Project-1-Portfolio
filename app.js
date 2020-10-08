@@ -104,13 +104,14 @@ fetch(url)
            const $div11 = $('<div>')
             $div11.append($('<h4>').attr('class', 'project-header').text(project.title))
             $div11.append($('<img>').attr('src', project.image).addClass('project-images'))
-            $div11.append($('<a>').attr('href', project.url).attr('target','_blank').text('Site')).addClass('project-link')
-            $div11.append($('<a>').attr('href', project.repo).attr('target','_blank').text('Repo')).addClass('project-repo') 
+            $div11.append($('<button>').on("click", function() {
+                onclick=window.open(project.url, '_blank');
+            }).text('Site').addClass('project-link'))
+            $div11.append($('<button>').on("click", function() {
+                onclick=window.open(project.repo, '_blank');
+            }).text('Repo').addClass('project-repo'))
             $div11.append($('<p>').text(project.description)).addClass('project-description')
             return $div11
-            // const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
-            //     window.scrollBy(0,480)
-            // }); 
         }
         data.forEach( project => {
             const $projectDiv = createProjectElement(project)
