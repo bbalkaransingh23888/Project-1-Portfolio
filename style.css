@@ -204,27 +204,22 @@ iframe {
 
 .languages {
     grid-area: languages;
-    /* border: gold; */
 }
 
 .frontend-frameworks {
     grid-area: frontend-frameworks;
-    /* border: gold; */
 }
 
 .backend-and-databases { 
     grid-area: backend-and-databases;
-    /* border: gold; */
 }
 
 .knowledge {
     grid-area: knowledge;
-    /* border: gold; */
 }
 
 .other {
     grid-area: software;
-    /* border: gold; */
 }
 
 footer {
