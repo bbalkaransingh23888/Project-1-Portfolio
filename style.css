@@ -331,8 +331,9 @@ footer {
     }
 
     .skills {
-       width: 800px;
+       width: 1200px;
        display: grid;
+       border: 1px solid black;
        grid-template-areas: 
        "language-header frontend-framework-header backend-database-header knowledge-header other-header"
        "languages frontend-frameworks backend-and-databases knowledge other";
@@ -340,77 +341,92 @@ footer {
 
     .language-header {
         grid-area: language-header;
+        height: 50px;
         font-size: 25px;
         color: #DC143C;
         margin: 35px;
         background-color: #696969;
+        border: 1px solid black;
     }
 
     .frontend-framework-header{
         grid-area: frontend-framework-header;
         font-size: 25px;
+        height: 70px;
         color: #DC143C;
         margin: 35px;
         background-color: #696969;
+        border: 1px solid black;
     }
     
     .backend-database-header{
         grid-area: backend-database-header;
         font-size: 25px;
+        height: 110px;
         color: #DC143C;
         margin: 35px;
         background-color: #696969;
+        border: 1px solid black;
     }
     
     .knowledge-header{
         grid-area: knowledge-header;
         font-size: 25px;
+        height: 50px;
         color: #DC143C;
         margin: 35px;
         background-color: #696969;
+        border: 1px solid black;
     }
 
     .other-header {
         grid-area: other-header;
         font-size: 25px;
+        height: 50px;
         color: #DC143C;
         margin: 35px;
         background-color: #696969;
+        border: 1px solid black;
     }
     
     .languages {
         grid-area: languages;
         display: flex;
         flex-direction: column;
-        margin: 35px;
+        margin: 10px;
+        border: 1px solid black;
     }
 
     .frontend-frameworks {
         grid-area: frontend-frameworks;
         display: flex;
         flex-direction: column;
-        margin: 35px;
+        margin: 10px;
+        border: 1px solid black;
     }
     
     .backend-and-databases { 
         grid-area: backend-and-databases;
         display: flex;
         flex-direction: column;
-        margin: 35px;
+        margin: 10px;
+        border: 1px solid black;
     }
     
     .knowledge {
         grid-area: knowledge;
         display: flex;
         flex-direction: column;
-        margin: 35px;
+        margin: 10px;
+        border: 1px solid black;
     }
 
     .other {
         grid-area: other;
         display: flex;
         flex-direction: column;
-        margin: 35px;
+        margin: 10px;
+        border: 1px solid black;
     }
 
     .fsite {

@@ -13,16 +13,16 @@ const $ul = $('<ul>'); $('.menu').append($ul)
 const $li = $('<li>'); $li.text('About me '); $ul.append($li); $li.click(function() {
     window.scrollBy(0,480)
 }); 
-const $li2 = $('<li>'); $li2.text(' Contact '); $ul.append($li2); $li2.click(function() {
+const $li2 = $('<li>'); $li2.text(' Sites '); $ul.append($li2); $li2.click(function() {
      window.scrollBy(0,1111)
 });
-const $li3 = $('<li>'); $li3.text(' Sites'); $ul.append($li3); $li3.click(function() {
+const $li3 = $('<li>'); $li3.text(' Skills'); $ul.append($li3); $li3.click(function() {
     window.scrollBy(0,1888)
 });
 const $li4 = $('<li>'); $li4.text(' Projects '); $ul.append($li4); $li4.click(function() {
-    window.scrollBy(0,2280)
+    window.scrollBy(0,2388)
 });
-const $li5 = $('<li>'); $li5.text(' Skills '); $ul.append($li5); $li5.click(function() {
+const $li5 = $('<li>'); $li5.text(' Contact Me '); $ul.append($li5); $li5.click(function() {
     window.scrollBy(0,5100)
 });
 const $hamburger = $('.hamburger')
